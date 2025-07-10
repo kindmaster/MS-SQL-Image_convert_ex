@@ -151,10 +151,12 @@ END IF
 
 
 
+아래 해당 소스는 아래 git fork 해서 기능을 추가 한 버전입니다.
 
+별도의 함수를 추가 했기 때문에 아래 git의 기능은 그대로 사용 가능합니다.
+https://github.com/yuseok-kim-edushare/MS-SQL-Image_convert
 
-
-
+아래는 원본 git readme.md 내용임
 
 # MS-SQL-Image_convert
 This Repository is for convert image inplace in MS-SQL Server.
