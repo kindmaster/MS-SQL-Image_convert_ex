@@ -323,4 +323,27 @@ namespace MS_SQL_Image_convert
 
         #endregion
     }
+
+    /// <summary>
+    /// 메인 프로그램 클래스 - 로컬 이미지 암호화 기능 테스트
+    /// </summary>
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("=== MS-SQL-Image_convert - 로컬 이미지 암호화 도구 ===");
+            Console.WriteLine();
+
+            if (args.Length > 0)
+            {
+                // 명령행 인수가 있으면 자동 테스트 실행
+                LocalImageEncryptionExample.Main(args);
+            }
+            else
+            {
+                // 대화형 메뉴 실행
+                LocalImageEncryptionExample.RunInteractiveTest();
+            }
+        }
+    }
 }

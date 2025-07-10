@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net481</TargetFramework>
-    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <RuntimeIdentifier>win-x86</RuntimeIdentifier>
     <RootNamespace>MS_SQL_Image_convert</RootNamespace>
     <AssemblyName>MS-SQL-Image_convert</AssemblyName>
     <SignAssembly>true</SignAssembly>
@@ -11,6 +11,12 @@
     <CLSCompliant>true</CLSCompliant>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <DelaySign>false</DelaySign>
+    <ComVisible>true</ComVisible>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+  </ItemGroup>
 
 </Project> 
